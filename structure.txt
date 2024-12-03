@@ -1,0 +1,12 @@
+flask_cnn_server/
+│
+├── server/
+│   ├── app.py                  # Flask server code
+│   ├── model.py                # Model definition
+│   ├── utils.py                # Helper functions for image preprocessing
+│   └── model_weights.pth       # Pretrained model weights
+│
+├── client/
+│   └── client.py               # Client code for sending requests
+│
+└── requirements.txt            # Required Python libraries

@@ -1,0 +1,8 @@
+Install Dependencies:
+pip install -r requirements.txt
+
+Start the Flask Server:
+python server/app.py
+
+Run the Client:
+python client/client.py

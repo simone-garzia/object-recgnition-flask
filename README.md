@@ -1,2 +1,2 @@
-# object-recgnition-flask
-Flask client/server creating a bounding box of a rectangle using a cnn
+# flask-obj-detection
+Flask client/server pulling a bounding box of an image target from a model network 
