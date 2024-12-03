@@ -4,9 +4,15 @@ flask_cnn_server/
 │   ├── app.py                  # Flask server code
 │   ├── model.py                # Model definition
 │   ├── utils.py                # Helper functions for image preprocessing
-│   └── model_weights.pth       # Pretrained model weights
+│   ├── model_weights.pth       # Pretrained model weights
+│   └── Dockerfile
 │
 ├── client/
-│   └── client.py               # Client code for sending requests
-│
+│   ├── client.py               # Client code for sending requests
+│   ├── Dockerfile
+│   └── Data/
+│       └── testData.csv
+│ 
+├── docker-compose.yml
+├── README.md
 └── requirements.txt            # Required Python libraries

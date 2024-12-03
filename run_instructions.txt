@@ -1,8 +1,9 @@
-Install Dependencies:
-pip install -r requirements.txt
+Build the containers:
+docker-compose build
 
-Start the Flask Server:
-python server/app.py
+Start the services:
+docker-compose up
 
-Run the Client:
-python client/client.py
+Testing
+Run the client container to classify vectors:
+docker-compose run client
