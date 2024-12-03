@@ -2,24 +2,6 @@
 
 A client-server application that utilizes a Flask-based backend to deploy a Convolutional Neural Network (CNN) model for inference. The project includes a client script to send requests to the server and a backend that handles requests, processes data, and returns results.
 
----
-
-## Project Structure
-
-flask_cnn_server/
-│
-├── server/
-│   ├── app.py                  # Flask server code
-│   ├── model.py                # Model definition
-│   ├── utils.py                # Helper functions for image preprocessing
-│   └── model_weights.pth       # Pretrained model weights
-│
-├── client/
-│   └── client.py               # Client code for sending requests
-│
-└── requirements.txt            # Required Python libraries
-
-
 ### **Server**
 - `app.py`: The main Flask application that handles HTTP requests, loads the CNN model, and serves predictions.
 - `model.py`: Defines the structure of the CNN model.
