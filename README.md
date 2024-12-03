@@ -53,11 +53,8 @@ The following Python libraries are required:
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 3. Install Dependencies
-    Install the required Python libraries:
     pip install -r requirements.txt
 ### 4. Start the Flask Server
-    Run the Flask server to start accepting client requests:
     python server/app.py
 ### 5. Run the Client
-    Use the client script to send requests to the server and receive inference results:
     python client/client.py
